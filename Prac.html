@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .wrapper {
+      display: flex;
+      justify-content: flex-end;
+      /* flex-direction: column; */
+      width: 181px;
+      height: 79px;
+      margin: 3px 14px 7px 9px;
+      padding: 6px 7px 7px;
+      border-radius: 3px;
+      background-color: #e1f4df;
+    }
+    .item {
+      width: 181px;
+      height: 50px;
+    }
+    .col1 {
+      display: flex;
+    }
+    .col1 > input {
+      /* margin-left: auto; */
+      margin: -47px 0px 0 17px;
+    }
+    .image_container {
+      display: flex;
+      margin: -15px 124px 0 0;
+    }
+    .image_container > img {
+      margin-right: 5px;
+    }
+    .appnt_name {
+      width: 71px;
+      height: 42px;
+      margin: 0 80px 24px 0;
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1;
+      letter-spacing: normal;
+      color: #414141;
+    }
+  </style>
+  <body>
+    <div class="wrapper">
+      <div class="item">
+        <div class="col1">
+          <span class="appnt_name">Sophia Blacksmith</span>
+          <input type="checkbox" />
+        </div>
+        <div class="image_container">
+          <img src="./star-filled.png" alt="star" height="27px" width="31px" />
+          <img src="./star-filled.png" alt="star" height="27px" width="31px" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

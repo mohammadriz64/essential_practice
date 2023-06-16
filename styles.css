@@ -1,0 +1,46 @@
+.block_body {
+  display: flex;
+  width: 181px;
+  flex-direction: column;
+  height: 79px;
+  margin: 3px 14px 7px 9px;
+  padding: 6px 7px 7px;
+  border-radius: 3px;
+  background-color: #e1f4df;
+}
+.applicant_name {
+  width: 71px;
+  height: 42px;
+  margin: 0 80px 24px 0;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #414141;
+}
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  margin: -15px 0px 20px 15px;
+  object-fit: contain;
+}
+
+.img_container {
+  display: flex;
+  justify-content: flex-start;
+}
+.app_img1 {
+  width: 27px;
+  height: 31px;
+  margin: 19px 124px 0 0;
+}
+
+.app_img {
+  width: 27px;
+  height: 31px;
+  margin: 19px 0px 0 -117px;
+}
